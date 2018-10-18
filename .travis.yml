@@ -3,3 +3,4 @@ script:
 - cd ossec-client/3.0.1
 - choco build
 - choco install ossec-client.3.0.1.nupkg -y
+language: shell
