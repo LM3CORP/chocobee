@@ -1,6 +1,6 @@
 os: windows
 script:
 - cd ossec-client/3.0.1
-- choco build
+- choco pack
 - choco install ossec-client.3.0.1.nupkg -y
 language: shell
