@@ -1,6 +1,6 @@
 os: windows
 script:
-- cd ossec-client/3.0.1
+- cd packages/ossec-client/3.0.1
 - choco pack
 - choco install ossec-client.3.0.1.nupkg -y
 - choco uninstall ossec-client -y
